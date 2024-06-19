@@ -1,0 +1,55 @@
+.movie-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+
+table,thead,tbody,tr,th,td {
+   border: 1px solid black;
+   padding: 7px;
+   border-collapse: collapse;
+   margin: 40px;
+   background-color:antiquewhite;
+   
+}
+
+.open{
+   display: block;
+}
+
+.close{
+   display: none;
+}
+
+.sub-child1 {
+   width: 400px;
+   /* background-color: aqua; */
+}
+
+#sub-child2{
+   width: 400px;
+   /* background-color: blue; */
+   margin-top:200px;
+   
+   
+}
+
+#model-container{
+   background-color:rgb(194, 221, 245);
+   padding: 20px;
+}
+
+button{
+   padding: 5px;
+   margin: 5px;
+   background-color:white;
+}
+
+input{
+   padding: 5px;
+  
+}
+
+.search{
+   margin: 30px;
+}
